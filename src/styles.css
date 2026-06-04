@@ -24,11 +24,11 @@ button, input, textarea, select { font: inherit; }
 .container { width: min(1160px, calc(100% - 40px)); margin: 0 auto; }
 .narrow { max-width: 850px; }
 
-.image-hero-home { --bg-image: url('/public/images/hero-home.svg'); }
-.image-auto-sales { --bg-image: url('/public/images/auto-sales.svg'); }
-.image-car-rental { --bg-image: url('/public/images/car-rental.svg'); }
-.image-auto-transport { --bg-image: url('/public/images/auto-transport.svg'); }
-.image-auto-service { --bg-image: url('/public/images/auto-service.svg'); }
+.image-hero-home { --bg-image: url('/public/images/hero-home.png'); }
+.image-auto-sales { --bg-image: url('/public/images/auto-sales.png'); }
+.image-car-rental { --bg-image: url('/public/images/car-rental.png'); }
+.image-auto-transport { --bg-image: url('/public/images/auto-transport.png'); }
+.image-auto-service { --bg-image: url('/public/images/auto-service.png'); }
 
 .top-bar {
   display: flex;
