@@ -5,9 +5,9 @@ const company = {
   city: 'Fărcășeni',
   county: 'Iași',
   address: 'Str. Rediu 487, Ap. BIR. 2, Fărcășeni, Iași',
-  phone: '+40 700 000 000',
-  whatsapp: '+40 700 000 000',
-  email: 'contact@autoprg.ro',
+  phone: '0775 562 757',
+  whatsapp: '0775 562 757',
+  email: 'autoprg2023@gmail.com',
 };
 
 const navLinks = [
