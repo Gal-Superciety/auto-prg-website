@@ -49,6 +49,7 @@ const rentalOptions = [
 
 const waLink = `https://wa.me/${company.whatsapp.replace(/\D/g, '')}`;
 const telLink = `tel:${company.phone.replaceAll(' ', '')}`;
+const logoPath = '/public/images/logo-auto-prg.png';
 
 function layout(content) {
   return `
@@ -60,7 +61,7 @@ function layout(content) {
       </div>
       <nav class="navbar container" aria-label="Navigare principală">
         <a class="brand" href="/" data-link>
-          <span class="brand-mark">PRG</span>
+          <img class="brand-logo" src="${logoPath}" alt="Logo ${company.name}" width="64" height="64" />
           <span><strong>AUTO P R G</strong><small>Soluții auto complete</small></span>
         </a>
         <button class="menu-toggle" type="button" aria-label="Deschide meniul">☰</button>
@@ -72,9 +73,12 @@ function layout(content) {
     <main>${content}</main>
     <footer class="footer">
       <div class="container footer-grid">
-        <div>
-          <h3>${company.name}</h3>
-          <p>Partenerul tău pentru autoturisme, închirieri, transport pe platformă și consultanță auto europeană.</p>
+        <div class="footer-brand">
+          <img class="footer-logo" src="${logoPath}" alt="Logo ${company.name}" width="92" height="92" />
+          <div>
+            <h3>${company.name}</h3>
+            <p>Partenerul tău pentru autoturisme, închirieri, transport pe platformă și consultanță auto europeană.</p>
+          </div>
         </div>
         <div>
           <h4>Date firmă</h4>
