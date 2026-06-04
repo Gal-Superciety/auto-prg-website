@@ -135,7 +135,7 @@ function home() {
   return `
     <section class="hero image-hero-home">
       <div class="container hero-grid">
-        <div class="hero-kicker">Premium auto · showroom cinematic · navy & gold</div>
+        <div class="hero-kicker">Vânzări auto · Închirieri · Transport pe platformă</div>
         <div class="hero-copy">
           <p class="eyebrow">AUTO P R G SRL · Iași</p>
           <h1>Experiență auto premium pentru vânzări, închirieri și transport pe platformă.</h1>
