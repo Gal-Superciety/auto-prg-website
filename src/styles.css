@@ -122,13 +122,13 @@ p { color: var(--gray); line-height: 1.75; }
 .page-hero p { color: rgba(255,255,255,0.78); max-width: 760px; }
 .page-hero .btn { margin-top: 14px; }
 
-.cta-band { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: center; margin-bottom: 86px; padding: 42px; border-radius: 30px; color: var(--white); background-image: linear-gradient(135deg, rgba(7, 20, 38, 0.94), rgba(18, 59, 106, 0.9)), url('/images/hero-home.svg'); background-position: center; background-size: cover; box-shadow: var(--premium-shadow); }
+.cta-band { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: center; margin-bottom: 86px; padding: 42px; border-radius: 30px; color: var(--white); background-image: linear-gradient(135deg, rgba(7, 20, 38, 0.94), rgba(18, 59, 106, 0.9)), url('/images/hero-home.png'); background-position: center; background-size: cover; box-shadow: var(--premium-shadow); }
 .cta-band p { color: rgba(255,255,255,0.78); }
 .cta-band .cta-actions { margin: 0; }
 
 .content-grid { align-items: start; }
 .info-card, .quote-card { padding: 30px; }
-.info-card.dark { color: var(--white); background-image: linear-gradient(135deg, rgba(7, 20, 38, 0.94), rgba(23, 58, 99, 0.86)), url('/images/auto-transport.svg'); background-position: center; background-size: cover; }
+.info-card.dark { color: var(--white); background-image: linear-gradient(135deg, rgba(7, 20, 38, 0.94), rgba(23, 58, 99, 0.86)), url('/images/auto-transport.png'); background-position: center; background-size: cover; }
 .info-card.dark p { color: rgba(255,255,255,0.78); }
 .info-card.dark .service-icon { background: rgba(255,255,255,0.1); }
 .services-detail { display: grid; gap: 18px; }

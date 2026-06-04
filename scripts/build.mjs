@@ -4,5 +4,5 @@ rmSync('dist', { recursive: true, force: true });
 mkdirSync('dist', { recursive: true });
 cpSync('index.html', 'dist/index.html');
 cpSync('src', 'dist/src', { recursive: true });
-cpSync('public', 'dist/public', { recursive: true });
+cpSync('public', 'dist', { recursive: true });
 console.log('Static production build generated in dist/.');
