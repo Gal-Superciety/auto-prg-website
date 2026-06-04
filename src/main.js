@@ -49,7 +49,7 @@ const rentalOptions = [
 
 const waLink = `https://wa.me/${company.whatsapp.replace(/\D/g, '')}`;
 const telLink = `tel:${company.phone.replaceAll(' ', '')}`;
-const logoPath = '/public/images/logo-auto-prg.png';
+const logoPath = '/images/logo-auto-prg.png';
 
 function layout(content) {
   return `
