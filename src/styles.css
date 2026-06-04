@@ -24,11 +24,11 @@ button, input, textarea, select { font: inherit; }
 .container { width: min(1160px, calc(100% - 40px)); margin: 0 auto; }
 .narrow { max-width: 850px; }
 
-.image-hero-home { --bg-image: url('/public/images/hero-home.png'); }
-.image-auto-sales { --bg-image: url('/public/images/auto-sales.png'); }
-.image-car-rental { --bg-image: url('/public/images/car-rental.png'); }
-.image-auto-transport { --bg-image: url('/public/images/auto-transport.png'); }
-.image-auto-service { --bg-image: url('/public/images/auto-service.png'); }
+.image-hero-home { --bg-image: url('/images/hero-home.png'); }
+.image-auto-sales { --bg-image: url('/images/auto-sales.png'); }
+.image-car-rental { --bg-image: url('/images/car-rental.png'); }
+.image-auto-transport { --bg-image: url('/images/auto-transport.png'); }
+.image-auto-service { --bg-image: url('/images/auto-service.png'); }
 
 .top-bar {
   display: flex;
@@ -79,7 +79,7 @@ p { color: var(--gray); line-height: 1.75; }
 .btn-light { color: var(--white); border-color: rgba(255, 255, 255, 0.35); background: rgba(255, 255, 255, 0.08); }
 
 .hero-card { position: relative; padding: 30px; border: 1px solid rgba(255, 255, 255, 0.16); border-radius: 34px; background: rgba(7, 20, 38, 0.56); box-shadow: var(--premium-shadow); backdrop-filter: blur(14px); }
-.hero-card::before { content: ""; display: block; height: 270px; margin-bottom: 24px; border-radius: 28px; background-image: linear-gradient(180deg, rgba(5, 11, 24, 0.1), rgba(5, 11, 24, 0.68)), url('/public/images/auto-sales.svg'); background-position: center; background-size: cover; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1); }
+.hero-card::before { content: ""; display: block; height: 270px; margin-bottom: 24px; border-radius: 28px; background-image: linear-gradient(180deg, rgba(5, 11, 24, 0.1), rgba(5, 11, 24, 0.68)), url('/images/hero-card.png'); background-position: center; background-size: cover; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1); }
 .hero-card-top { display: flex; justify-content: space-between; align-items: center; color: var(--white); margin-bottom: 18px; }
 .hero-card-top span { padding: 8px 12px; border-radius: 999px; color: var(--navy); background: var(--gold); font-weight: 900; }
 .hero-card ul { list-style: none; display: grid; gap: 14px; padding: 0; margin: 0; color: rgba(255, 255, 255, 0.86); }
@@ -122,13 +122,13 @@ p { color: var(--gray); line-height: 1.75; }
 .page-hero p { color: rgba(255,255,255,0.78); max-width: 760px; }
 .page-hero .btn { margin-top: 14px; }
 
-.cta-band { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: center; margin-bottom: 86px; padding: 42px; border-radius: 30px; color: var(--white); background-image: linear-gradient(135deg, rgba(7, 20, 38, 0.94), rgba(18, 59, 106, 0.9)), url('/public/images/hero-home.svg'); background-position: center; background-size: cover; box-shadow: var(--premium-shadow); }
+.cta-band { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: center; margin-bottom: 86px; padding: 42px; border-radius: 30px; color: var(--white); background-image: linear-gradient(135deg, rgba(7, 20, 38, 0.94), rgba(18, 59, 106, 0.9)), url('/images/hero-home.svg'); background-position: center; background-size: cover; box-shadow: var(--premium-shadow); }
 .cta-band p { color: rgba(255,255,255,0.78); }
 .cta-band .cta-actions { margin: 0; }
 
 .content-grid { align-items: start; }
 .info-card, .quote-card { padding: 30px; }
-.info-card.dark { color: var(--white); background-image: linear-gradient(135deg, rgba(7, 20, 38, 0.94), rgba(23, 58, 99, 0.86)), url('/public/images/auto-transport.svg'); background-position: center; background-size: cover; }
+.info-card.dark { color: var(--white); background-image: linear-gradient(135deg, rgba(7, 20, 38, 0.94), rgba(23, 58, 99, 0.86)), url('/images/auto-transport.svg'); background-position: center; background-size: cover; }
 .info-card.dark p { color: rgba(255,255,255,0.78); }
 .info-card.dark .service-icon { background: rgba(255,255,255,0.1); }
 .services-detail { display: grid; gap: 18px; }
