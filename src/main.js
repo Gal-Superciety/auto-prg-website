@@ -161,7 +161,7 @@ function home() {
     </section>
     <section class="section why-section">
       <div class="container">
-        ${sectionHeading('De ce AUTO P.R.G. SRL?', 'Un partener auto construit pe încredere, calitate și servicii complete.', 'Am redesenat experiența vizuală în jurul unui stil premium: imagini mari, contrast puternic și informație esențială, ușor de parcurs pe orice dispozitiv.')}
+        ${sectionHeading('De ce AUTO P.R.G. SRL?', 'Un partener auto construit pe încredere, calitate și servicii complete.', 'Oferim servicii auto complete, cu transparență, seriozitate și atenție la fiecare detaliu.')}
         <div class="why-grid">${whyCards.map(([title, text, image]) => `<article class="why-card image-${image}"><div><span>${title}</span><p>${text}</p></div></article>`).join('')}</div>
       </div>
     </section>
