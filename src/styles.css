@@ -38,6 +38,12 @@ button, input, textarea, select { font: inherit; }
 .image-stock-estate { --bg-image: url('/public/images/stock-estate.svg'); }
 .image-stock-suv { --bg-image: url('/public/images/stock-suv.svg'); }
 
+.image-hero-home { --bg-image: url('/public/images/hero-home.svg'); }
+.image-auto-sales { --bg-image: url('/public/images/auto-sales.svg'); }
+.image-car-rental { --bg-image: url('/public/images/car-rental.svg'); }
+.image-auto-transport { --bg-image: url('/public/images/auto-transport.svg'); }
+.image-auto-service { --bg-image: url('/public/images/auto-service.svg'); }
+
 .top-bar {
   display: flex;
   justify-content: center;

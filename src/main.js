@@ -197,6 +197,7 @@ function home() {
   return `
     <section class="hero image-hero-home">
       <div class="container hero-grid">
+        <div class="hero-kicker">Premium auto · showroom cinematic · navy & gold</div>
         <div class="hero-copy">
           <p class="eyebrow">AUTO P.R.G. SRL · Iași</p>
           <h1>Dealership auto premium. Servicii complete, fără complicații.</h1>
